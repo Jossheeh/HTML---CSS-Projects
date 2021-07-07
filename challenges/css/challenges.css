@@ -1,0 +1,57 @@
+html {
+font-family: sans-serif;
+font-size: 62.5%;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  img {
+     width: 50px;
+     height: 400px;
+    filter: grayscale(100%);
+  }
+
+  #p1 {
+      text-align: center;
+      font-weight: bold;
+      font-size: large;
+  }
+  footer {
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  th, td {
+    text-align: center;
+    padding: 15px;
+    border: 0.5px solid black;
+  }
+  
+  th {
+    background-color: rgb(248, 211, 0);
+  }
+
+  .image {
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    border: 2px solid red;
+    border-radius: 50px 20px;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    color: black;
+    bottom: 8px;
+    right: 16px;
+  }

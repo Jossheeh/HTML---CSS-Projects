@@ -40,7 +40,7 @@
                 </ul>
             </li>
               <li class="nav-item active">
-                <a class="nav-link text-light" href="#about" tabindex="-1" aria-disabled="true">About</a>
+                <a class="nav-link text-light" href="about.html" tabindex="-1" aria-disabled="true">About</a>
               </li>
               <li class="nav-item active">
                 <a class="nav-link text-light" aria-current="page" href="contact.html">Contact</a>
@@ -58,32 +58,52 @@
       </nav>
        <!--Nav End-->
        <div class="image">
-        <img id="mainimage" class= "img-fluid" style="height: 12em; width: 100%;" src="./images/barbell.jpg" alt="Barbell"/>
-        <div class="bottom-right">&copy;2021 Personal Training Hub&reg;</div>     
-        </div>
-      <!--Page heading start-->
+       <img id="mainimage" class= "img-fluid" style="height: 12em; width: 100%;" src="./images/barbell.jpg" alt="Barbell"/>
+       <div class="bottom-right">&copy;2021 Personal Training Hub&reg;</div>     
+       </div>
+       <!--Page heading start-->
       <div class="jumbotron jumbotron-fluid bg-info">
         <div class="container">
         <h1 class="display-4 text-light text-center">Personal Training Hub</h1>
-        <p class="lead text-light text-center">A little bit about us...</p>
+        <p class="lead text-light text-center">Check out our rates</p>
         </div>
         </div>
       <!--Page heading end-->
 
       <!--Main content start-->
-      <div class="border border-info border-4" id="about">
-      <h1 class="my-5 text-center text-primary">Welcome to Personal Training Hub</h1>
-            <div class="fs-5 my-2 text-info text-center">
-                <p>We began our journey in 2021 a year of lockdowns and not much progress.</p>
-                <p>Our goal is simple, to make the hard journey of change easier on both the client and the trainer.</p>
-                <p>We have video demonstrations aswel as training plans.</p>
-                <p>Nutrition plans and macro counters will be available in the near future.</p>
-            </div>
+      <div id="table">
+      <table style="width:100%">
+        <tr>
+          <th>Membership type:</th>
+          <th>Rate:</th>
+          <th>Training plans</th>
+          <th>Nutrition plans</th>
+          <th>Schedule manager</th>
+          <th>Training App</th>
+        </tr>
+        <tr id="gold">
+          <td>Gold</td>
+          <td>€4.99/PM</td>
+          <td>&#9989;</td>
+          <td>&#9989;</td>
+          <td>&#9989;</td>
+          <td>&#9989;</td>
+        
+        </tr>
+        <tr id="silver">
+            <td>Silver</td>
+            <td>€1.99/PM</td>
+            <td>&#9989;</td>
+            <td>&#10060;</td>
+            <td>&#10060;</td>
+            <td>&#10060;</td>
+        </tr>
+      </table>
       </div>
       <!--Main content end-->
 
          <!--Footer start-->
-      <footer>
+      <footer class="my-3">
 
         
        <p><a class="nav-link active text-light" href="contact.html">Contact</a></p>
