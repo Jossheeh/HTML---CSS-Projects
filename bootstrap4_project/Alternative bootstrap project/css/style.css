@@ -6,6 +6,9 @@ html {
   -ms-text-size-adjust: 100%;
   }
 
+body {
+  margin: 0%
+}
   @media screen and (max-width: 600px) {
     #nav {
     float: none;
